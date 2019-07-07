@@ -48,25 +48,47 @@
 
       </header>
 
-      {% if site.resume_section_experience %}
-      <!-- begin Experience -->
+      {% if site.resume_section_research_experience %}
+      <!-- begin research_experience -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Experience</h2>
+          <h2>Research Experience</h2>
         </header>
 
-        {% for job in site.data.experience %}
+        {% for job in site.data.research_experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+          <h4 class="resume-item-details" itemprop="description"><i>{{ job.position }}</i> &bull; {{ job.duration }}</h4>
           <p class="resume-item-copy">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
 
       </section>
-      <!-- end Experience -->
+      <!-- end research_experience -->
       {% endif %}
+
+      {% if site.resume_section_clinical_experience %}
+      <!-- begin clinical_experience -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Clinical Experience</h2>
+        </header>
+
+        {% for job in site.data.clinical_experience %}
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+          <h4 class="resume-item-details" itemprop="description"><i>{{ job.position }}</i> &bull; {{ job.duration }}</h4>
+          <p class="resume-item-copy">{{ job.summary }}</p>
+        </div><!-- end of resume-item -->
+        {% endfor %}
+
+      </section>
+      <!-- end clinical_experience -->
+      {% endif %}
+
+
 
 
       {% if site.resume_section_education %}
@@ -97,24 +119,62 @@
       {% endif %}
 
 
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
+      {% if site.resume_section_honor %}
+      <!-- begin honor -->
       <section class="content-section">
+
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>Honors & Awards</h2>
         </header>
 
-        {% for project in site.data.projects %}
-        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
+        {% for honor in site.data.honors %}
+        <div class="resume-item">
+          <h3 class="resume-item-title" itemprop="award">{{ honor.award }}</h3>
+          <h4 class="resume-item-details">{{ honor.organization }} &bull; {{ honor.year }}</h4>
+          {% if honor.for %}
+          <p class="resume-item-copy"><i>{{ honor.for }}</i></p>
+          {% endif %}
+          <p class="resume-item-copy">
+            {{ honor.summary }}
+            <br>
+            {{ honor.prize }}
+          </p>
+          <p class="resume-item-copy">
+            <a href="https://{{ honor.url }}"/a>{{ honor.url }}</a>
+          </p>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Projects -->
+      <!-- end honor -->
+      {% endif %}
+
+
+      {% if site.resume_section_publications %}
+      <!-- begin publications -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+
+        {% for publication in site.data.publications %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
+          <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+          <h3 class="resume-item-copy" itemprop="name">
+            {% if publication.url %}
+            <a href="{{ publication.url }}">{{ publication.title }}</a>
+            {% else %}
+            {{ publication.title }}
+            {% endif %}
+          <br>{{ publication.type}}
+        </h3>
+          <h4 class="resume-item-copy" itemprop="description">{{ publication.authors }}  &bull; {{ publication.date }}</h4>
+          <p class="resume-item-copy">{{ publication.medium }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end publications -->
       {% endif %}
 
       {% if site.resume_section_skills %}
@@ -135,25 +195,7 @@
       <!-- end Skills -->
       {% endif %}
 
-      {% if site.resume_section_recognition %}
-      <!-- begin Recognition -->
-      <section class="content-section">
 
-        <header class="section-header">
-          <h2>Recognition</h2>
-        </header>
-
-        {% for recognition in site.data.recognitions %}
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
-        </div>
-        {% endfor %}
-
-      </section>
-      <!-- end Recognition -->
-      {% endif %}
 
       {% if site.resume_section_associations %}
       <!-- begin Associations -->
@@ -232,8 +274,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Made with Jekyll using a template by <a href="http://twitter.com/jglovier">@jglovier</a>
       </footer>
 
     </div>

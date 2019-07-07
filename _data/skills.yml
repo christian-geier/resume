@@ -1,12 +1,7 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: Multicolor flow cytometry
+  description: Over the past two years I have gained significant experience transitioning our lab to routine use of multicolor (LSR II) and spectral cytometry (Cytek Aurora). I have introduced several process innovations to optimize the resulting multicolor images in regards to staining conditions, process, and analytics. I am also responsible for analysis of the resulting multidimensional data sets. I have a particular interest in deep learning algorithms; particularly t-SNE as both a research tool to visualize and communicate complex data.
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Bioinformatics (Python and R)
+  description: I routinely use Python and its relevant modules (pandas, seaborn, Tensor Flow, Keras) data analysis, data management, and visualization. While at NIH I used the R programming language to write software enabling the large-scale extraction of laboratory and clinical data from medical records.
