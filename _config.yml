@@ -17,8 +17,8 @@ resume_title:                   "Researching Rheumatoid Arthritis at Columbia Un
 # resume_contact_email:           "lisasimpson@youremailaddress.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "212-3054308"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       "212-305-4308"
+resume_contact_address:         "650 W 168th St, New York, NY 10032"
 
 resume_header_contact_info:     "New York, NY • 212-305-4308 • christian.geier _ at _ posteo _ dot _ net"
 display_header_contact_info:    "true"
@@ -51,7 +51,7 @@ resume_social_links:
   resume_twitter_url:           "http://twitter.com/cgeier86"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/christian-geier"
   # resume_instagram_url:         "insert your Instagram URL here"
   resume_website_url:           "https://christiangeier.co"
   # resume_medium_url:            "https://medium.com/@jglovier"
