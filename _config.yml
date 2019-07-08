@@ -20,7 +20,7 @@ resume_title:                   "Researching Rheumatoid Arthritis at Columbia Un
 resume_contact_telephone:       "212-305-4308"
 resume_contact_address:         "650 W 168th St, New York, NY 10032"
 
-resume_header_contact_info:     "New York, NY • 212-305-4308 • christian.geier _ at _ posteo _ dot _ net"
+resume_header_contact_info:     "New York, NY • 212-305-4308 • christian.geier _at_ posteo.net"
 display_header_contact_info:    "true"
 
 resume_header_intro: <b>Bio.</b> I'm a Rheumatology Fellow at Columbia University School of Medicine working in the lab of <a href="https://www.rheumatologyatcolumbia.org/research-labs/winchester-lab">Robert Winchester</a> where I am responsible for acquisition, optimization and analysis of multicolor flow cytometry data to study the adaptive immune system in the context of autoimmunity. My research focuses on understanding of the potential pathologic functions of dendritic cells (DC) in the context of autoimmunity. Currently, we are particularly interested in the potential implications of pathogenic DC in cardiovascular disease in Rheumatoid Arthritis.
@@ -48,11 +48,12 @@ resume_section_interests:       false
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   # resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/cgeier86"
+  resume_twitter_url:           "https://twitter.com/cgeier86"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/christian-geier"
   # resume_instagram_url:         "insert your Instagram URL here"
+  resume_researchgate_url:      "https://www.researchgate.net/profile/Christian_Geier4"
   resume_website_url:           "https://christiangeier.co"
   # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
