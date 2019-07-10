@@ -132,7 +132,7 @@
           <h3 class="resume-item-title" itemprop="award">{{ honor.award }}</h3>
           <h4 class="resume-item-details">
             {% if honor.organization_url %}
-            <a href="{{% honor.organization_url %}}">{{ honor.organization }}</a>
+            <a href="{{ honor.organization_url }}">{{ honor.organization }}</a>
             {% else %}
             {{ honor.organization }}
             {% endif %}
