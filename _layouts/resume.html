@@ -130,7 +130,15 @@
         {% for honor in site.data.honors %}
         <div class="resume-item">
           <h3 class="resume-item-title" itemprop="award">{{ honor.award }}</h3>
-          <h4 class="resume-item-details">{{ honor.organization }} &bull; {{ honor.year }}</h4>
+          <h4 class="resume-item-details">
+            {% if honor.organization_url %}
+            <a href="{{% honor.organization_url %}}">{{ honor.organization }}</a>
+            {% else %}
+            {{ honor.organization }}
+            {% endif %}
+             &bull; {{ honor.year }}
+           </h4>
+
           {% if honor.for %}
           <p class="resume-item-copy"><i>{{ honor.for }}</i></p>
           {% endif %}
