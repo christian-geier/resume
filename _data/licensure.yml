@@ -1,5 +1,10 @@
 # licensure information
-- url: "#"
-  description: Springfield Jazz Enthusiasts
-- url: "#"
-  description: Springfield Young Professionals
+- organization: American Board of Internal Medicine
+  role: Diplomate in Internal Medicine
+  year: 2017 &mdash;
+
+- organization: American College of Rheumatology
+  role: Fellow Member
+  year: 2017 &mdash;
+  # url: https://www.peta.org/
+  summary: Served on the Registry and Health Informatics (RHIT) Committee and Fellows-In-Training (FIT) Subcommittee
