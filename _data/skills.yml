@@ -1,7 +1,7 @@
 # Skills
 
 - skill: Multicolor flow cytometry
-  description: Over the past two years I have gained significant experience transitioning our lab to routine use of multicolor (LSR II) and spectral cytometry (Cytek Aurora). I have introduced several process innovations to optimize the resulting multicolor images in regards to staining conditions, process, and analytics. I am also responsible for analysis of the resulting multidimensional data sets. I have a particular interest in deep learning algorithms; particularly t-SNE as both a research tool to visualize and communicate complex data.
+  description: Over the past two years I have gained significant experience transitioning our lab to routine use of multicolor (LSR II) and spectral cytometry (Cytek Aurora). I have introduced several process innovations to optimize the resulting multicolor images in regards to staining conditions, sample handling, and analytics. I am also responsible for analysis of the resulting multidimensional data sets. I have a particular interest in deep learning algorithms; particularly clustering algorithms such as T-distributed Stochastic Neighbor Embedding (t-SNE) as both a research tool to visualize and communicate complex data.
 
 - skill: Bioinformatics (Python and R)
   description: I routinely use Python and its relevant modules (pandas, seaborn, Tensor Flow, Keras) data analysis, data management, and visualization. While at NIH I used the R programming language to write software enabling the large-scale extraction of laboratory and clinical data from medical records.
