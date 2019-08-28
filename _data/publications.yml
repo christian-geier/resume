@@ -1,6 +1,13 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
+- authors: Geier C, Giles JT, Gibor G, Bathon J & Winchester R
+  type: Abstract/Poster
+  title: In Rheumatoid Arthritis (RA) Decreases in Conventional Dendritic Cell Lineages Are Associated with Adverse Measures of Myocardial Function and Expansions of Anomalous HLA-DR+ Myeloid Subsets
+  date: 11/2019
+  medium: American College of Rheumatology Annual Meeting, Atlanta, GA
+  # description:
+
 - authors: Geier C, Giles JT, Gibor G, Russo C, Tugcu A, Bokhari S, Bathon J & Winchester R
   type: Abstract
   title: Peripheral decrease and enhanced migratory phenotype of a subset of blood myeloid dendritic cells (CD1c&#8314; mDC) are associated with adverse measures of cardiac function in patients with Rheumatoid Arthritis (RA)
