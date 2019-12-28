@@ -1,10 +1,16 @@
 # licensure information
 - organization: American Board of Internal Medicine
+  role: Rheumatology Board Certification
+  year: 2019 &mdash;
+  url: https://www.abim.org/verify-physician/Geier-Christian-HzBB!uatoqE=.aspx
+
+- organization: American Board of Internal Medicine
   role: Diplomate in Internal Medicine
   year: 2017 &mdash;
+  url: https://www.abim.org/verify-physician/Geier-Christian-HzBB!uatoqE=.aspx
 
 - organization: American College of Rheumatology
   role: Fellow Member
-  year: 2017 &mdash; 2019
+  year: 2017 &mdash;
   # url: https://www.peta.org/
   summary: Served on the Registry and Health Informatics (RHIT) Committee and Fellows-In-Training (FIT) Subcommittee
