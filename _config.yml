@@ -46,7 +46,7 @@ resume_section_interests:       false
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  # resume_github_url:            "https://github.com/jglovier/resume-template"
+  resume_github_url:            "https://github.com/christian-geier"
   resume_twitter_url:           "https://twitter.com/cgeierRA"
   # resume_dribbble_url:          "https://dribbble.com/jag"
   resume_ORCID_url:          "https://orcid.org/0000-0002-2971-1485"
