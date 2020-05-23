@@ -204,6 +204,24 @@
       <!-- end licensure -->
       {% endif %}
 
+      {% if site.resume_section_projects %}
+      <!-- begin Associations -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Other Projects</h2>
+        </header>
+        {% for project in site.data.projects %}
+        <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}">{{ project.title }}</a>{% else %}{{ project.title }}{% endif %}</h3>
+          <p class="resume-item-details" itemprop="description">{{ project.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end licensure -->
+      {% endif %}
+
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
