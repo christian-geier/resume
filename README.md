@@ -1,3 +1,2 @@
-# Resume template
-
-This is the personal website of Christian Geier, MD, hosted by GitHub Pages. You can find it at [christiangeier.co](https://christiangeier.co).
+# This is the personal website of Christian Geier, MD
+You can find it at [christiangeier.co](https://christiangeier.co), hosted by GitHub Pages.
